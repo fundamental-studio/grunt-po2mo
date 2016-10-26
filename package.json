@@ -1,13 +1,19 @@
 {
   "name": "grunt-po2mo",
   "description": "Compile .po files into binary .mo files with msgfmt.",
-  "version": "0.1.2",
-  "homepage": "https://github.com/MicheleBertoli/grunt-po2mo",
-  "author": {
-    "name": "Michele Bertoli",
-    "email": "michele@berto.li",
-    "url": "http://michele.berto.li"
-  },
+  "version": "0.1.3",
+  "homepage": "https://github.com/elegantthemes/grunt-po2mo",
+  "contributors": [
+    {
+      "name": "Michele Bertoli",
+      "email": "michele@berto.li",
+      "url": "http://michele.berto.li"
+    },
+    {
+      "name": "Elegant Themes",
+      "url": "http://www.elegantthemes.com"
+    }
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/MicheleBertoli/grunt-po2mo.git"
@@ -30,10 +36,10 @@
     "grunt-contrib-jshint": "~0.6.0",
     "grunt-contrib-clean": "~0.4.0",
     "grunt-contrib-nodeunit": "~0.2.0",
-    "grunt": "~0.4.1"
+    "grunt": "~1.0.1"
   },
   "peerDependencies": {
-    "grunt": "~0.4.1"
+    "grunt": "~1.0.1"
   },
   "keywords": [
     "gruntplugin"
